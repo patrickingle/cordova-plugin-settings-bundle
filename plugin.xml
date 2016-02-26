@@ -1,0 +1,26 @@
+    <?xml version="1.0" encoding="UTF-8"?>
+    <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-settings-bundle" version="1.0.0">
+        <name>Echo</name>
+        <description>Cordova Echo Plugin</description>
+        <license>Apache 2.0</license>
+        <keywords>cordova,settings.bundle,app-settings</keywords>
+        <author>Patrick Ingle</author>
+
+	<!-- cordova -->
+	<engines>
+	   <engine name="cordova" version=">=3.6.0" />
+	   <engine name="cordova-plugman" version=">=4.3.0" />
+	   <engine name="cordova-windows" version=">=4.2.0" />
+	</engines>
+        
+	<!-- ios -->
+        <platform name="ios">
+            <resource-file src="Settings.bundle" />
+        </platform>
+	<!-- android -->
+        <platform name="android">
+        </platform>
+	<!-- windows -->
+	<platform name="windows">
+	</platform>
+    </plugin>

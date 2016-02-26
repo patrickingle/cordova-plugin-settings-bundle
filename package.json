@@ -1,0 +1,46 @@
+{
+  "name": "cordova-plugin-settings-bundle",
+  "version": "1.0.0",
+  "description": "Cordova Setings.bundle Plugin",
+  "cordova": {
+    "id": "cordova-plugin-settings-bundle",
+    "platforms": [
+      "android",
+      "ios",
+      "windows"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/patrickingle/cordova-plugin-settings-bundle.git"
+  },
+  "keywords": [
+    "cordova",
+    "echo",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.6.0"
+    },
+    {
+      "name": "cordova-plugman",
+      "version": ">=4.3.0"
+    },
+    {
+      "name": "cordova-windows",
+      "version": ">=4.2.0"
+    }
+  ],
+  "author": "Patrick Ingle",
+  "license": "Apache 2.0",
+  "dependencies": {
+    "cordova-plugin-app-preferences": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/patrickingle/cordova-plugin-settings-bundle/issues"
+  },
+  "homepage": "http://www.amazon.com/Patrick-Ingle/e/B00IZTF65M/ref=sr_ntt_srch_lnk_4?qid=1456503473&sr=8-4"
+}
